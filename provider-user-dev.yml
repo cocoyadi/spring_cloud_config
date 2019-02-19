@@ -1,6 +1,7 @@
-spring:
-  jpa:
-    show-sql: true
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
 management:
   endpoint:
     health:
