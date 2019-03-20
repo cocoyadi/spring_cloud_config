@@ -15,7 +15,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: 'hystrix.stream'
+        include: 'hystrix.stream',refresh
 
 info:    #添加actuator监控的端点信息，通过http://localhost:8086/info访问
   app:
